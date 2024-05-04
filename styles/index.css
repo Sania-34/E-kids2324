@@ -1,0 +1,58 @@
+body {
+    /* Стилі для body */
+    background-color: rgb(5, 4, 4);
+}
+
+h1 {
+    /* Стилі для h1 */
+    color:blueviolet;
+    font-size:70px;
+}
+
+p {
+    /* Стилі для p */
+}
+
+ul {
+    /* Стилі для ul та li */
+    color: white;
+    font-size: 30px;
+    
+}
+
+img {
+    /* Стилі для img */
+    font-size: 40px;
+}
+
+a {
+    /* Стилі для a */
+    color: brown;
+    font-size: 30px;
+}
+
+.colorChange {
+    position: relative;
+    background-color: transparent;
+    left: 0;
+}
+
+.colorChange:hover {
+    animation: colorChange 2s infinite;
+}
+
+
+@keyframes colorChange {
+    0% {
+        background-color: blue;
+        left: 0px;
+    }
+    50% {
+        background-color: green;
+        left: 200px;
+    }
+    100% {
+        background-color: blue;
+        left: 0px;
+    }
+}
